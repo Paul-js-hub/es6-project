@@ -16,7 +16,14 @@
       "array-callback-return": "off",
       "eol-last": "off",
       "no-use-before-define":"off",
-      "no-unused-vars": "off"
+      "no-unused-vars": "off",
+      "import/extensions": [
+        1,
+        {
+            "js": "always",
+            "json": "always"
+        }
+    ]
     },
     "ignorePatterns": [
       "dist/",

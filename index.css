@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+ul,
+li a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #000;
+  border-radius: 4px;
+  align-items: center;
+  height: 50px;
+}
+
+.navbrand a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 10px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-item {
+  margin: 5px;
+  padding: 0;
+}
+
+.books-container {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.books-container li {
+  margin-left: -40px;
+}
+
+.content-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+.books-container li:nth-child(odd) {
+  background-color: lightslategrey;
+  left: 0;
+}
+
+button {
+  width: 80px;
+  height: 35px;
+  margin: 4px;
+  border: 2px solid black;
+  box-shadow: 2px 2px;
+}
+
+input[type="text"] {
+  margin: 6px;
+  width: 30%;
+  padding: 12px;
+}
+
+.form-container {
+  margin: 3% 15%;
+}
+
+footer p {
+  border: 2px solid #000;
+  margin: 10% 0;
+  padding: 12px;
+}
+
+.none {
+  display: none;
+}
+
+.date {
+  display: flex;
+  justify-content: flex-end;
+  color: #000;
+  font-weight: 600;
+}
